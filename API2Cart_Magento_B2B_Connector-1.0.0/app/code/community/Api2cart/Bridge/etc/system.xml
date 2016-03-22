@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <api2cart>
+            <label>Api2cart</label>
+            <sort_order>20</sort_order>
+        </api2cart>
+    </tabs>
+    <sections>
+        <api2cart translate="label" module="api2cart_bridge">
+            <label>Bridge</label>
+            <tab>api2cart</tab>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <frontend_model>api2cart_bridge/adminhtml_system_config_block</frontend_model>
+                </general>
+            </groups>
+        </api2cart>
+    </sections>
+</config>
