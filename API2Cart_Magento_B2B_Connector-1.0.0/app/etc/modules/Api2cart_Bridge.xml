@@ -1,8 +1,0 @@
-<config>
-    <modules>
-        <Api2cart_Bridge>
-            <active>true</active>
-            <codePool>community</codePool>
-        </Api2cart_Bridge>
-    </modules>
-</config>
